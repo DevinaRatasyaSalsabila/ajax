@@ -27,33 +27,39 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="index.html">
+                        <a class="nav-link active text-light" aria-current="page" href="index">
                             <i class="bi bi-house-fill"></i>
                             Beranda
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="siswa_jquery.html">
+                        <a class="nav-link  text-light" href="siswa">
                             <i class="bi bi-people"></i>
                             Siswa
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="guru.html">
+                        <a class="nav-link  text-light" href="guru">
                             <i class="bi bi-file-person"></i>
                             Guru
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="mapel.html">
+                        <a class="nav-link  text-light" href="mapel">
                             <i class="bi bi-journal-text"></i>
                             Mata Pelajaran
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="jadwalPelajaran.html">
+                        <a class="nav-link  text-light" href="jadwal">
                             <i class="bi bi-calendar"></i>
                             Jadwal Pelajaran
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light" href="kelas">
+                            <i class="bi bi-calendar"></i>
+                            Kelas
                         </a>
                     </li>
                 </ul>
@@ -115,8 +121,8 @@
                                 <td class="text-center">
                                     <button class="btn-warning btn-sm btn m-1" data-bs-toggle="modal"
                                         data-bs-target="#edit_Guru" data-bs-guru="Rizky Maulana"
-                                        data-bs-nip="1234567890123" data-bs-gender="Laki-Laki" data-bs-alamat="Malang"
-                                        data-bs-pendidikan="S1 Pendidikan">
+                                        data-bs-nip="1234567890123" data-bs-gender="Laki-Laki"
+                                        data-bs-alamat="Malang" data-bs-pendidikan="S1 Pendidikan">
                                         Edit
                                     </button>
                                     <button class="btn-danger btn-sm btn m-1"
@@ -157,8 +163,8 @@
                                 <td class="text-center">
                                     <button class="btn-warning btn-sm btn m-1" data-bs-toggle="modal"
                                         data-bs-target="#edit_Guru" data-bs-guru="Andi Saputra"
-                                        data-bs-nip="3456789012345" data-bs-gender="Laki-Laki" data-bs-alamat="Kediri"
-                                        data-bs-pendidikan="S1 Teknik Elektro">
+                                        data-bs-nip="3456789012345" data-bs-gender="Laki-Laki"
+                                        data-bs-alamat="Kediri" data-bs-pendidikan="S1 Teknik Elektro">
                                         Edit
                                     </button>
                                     <button class="btn-danger btn-sm btn m-1"
@@ -178,8 +184,8 @@
                                 <td class="text-center">
                                     <button class="btn-warning btn-sm btn m-1" data-bs-toggle="modal"
                                         data-bs-target="#edit_Guru" data-bs-guru="Fitriani Kusuma"
-                                        data-bs-nip="4567890123456" data-bs-gender="Perempuan" data-bs-alamat="Surabaya"
-                                        data-bs-pendidikan="S1 Akuntansi">
+                                        data-bs-nip="4567890123456" data-bs-gender="Perempuan"
+                                        data-bs-alamat="Surabaya" data-bs-pendidikan="S1 Akuntansi">
                                         Edit
                                     </button>
                                     <button class="btn-danger btn-sm btn m-1"
@@ -216,7 +222,8 @@
                         </ul>
                     </div>
                     <div class="col-md-4 text-center">
-                        <img src="img/Task-bro.svg" alt="Ilustrasi Tugas" class="img-fluid" style="max-height: 210px;">
+                        <img src="img/Task-bro.svg" alt="Ilustrasi Tugas" class="img-fluid"
+                            style="max-height: 210px;">
                     </div>
                 </div>
                 <div class="text-center text-light my-3">2025 Devina Ratasya XI RPL 1</div>
@@ -247,7 +254,8 @@
                         <div class="mb-3 row">
                             <label for="NIP" class="form-label col-sm-2">Nama NIP</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="NIP" placeholder="Masukkan NIP">
+                                <input type="text" class="form-control" id="NIP"
+                                    placeholder="Masukkan NIP">
                             </div>
                         </div>
 
@@ -311,14 +319,16 @@
                         <div class="mb-3 row">
                             <label for="data-guru" class="form-label col-sm-2">Nama Guru</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Guru">
+                                <input type="text" class="form-control" id="nama"
+                                    placeholder="Masukkan Nama Guru">
                             </div>
                         </div>
 
                         <div class="mb-3 row">
                             <label for="NIP" class="form-label col-sm-2">NIP</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="NIP" placeholder="Masukkan NIP">
+                                <input type="text" class="form-control" id="NIP"
+                                    placeholder="Masukkan NIP">
                             </div>
                         </div>
 
@@ -327,15 +337,15 @@
                             <div class="col-sm-10">
                                 <div class="d-flex">
                                     <div class="form-check m-2">
-                                        <input class="form-check-input" type="radio" name="gender" value="Perempuan"
-                                            id="radioDefault1">
+                                        <input class="form-check-input" type="radio" name="gender"
+                                            value="Perempuan" id="radioDefault1">
                                         <label class="form-check-label" for="radioDefault1">
                                             Perempuan
                                         </label>
                                     </div>
                                     <div class="form-check m-2">
-                                        <input class="form-check-input" type="radio" name="gender" value="Laki-Laki"
-                                            id="radioDefault1">
+                                        <input class="form-check-input" type="radio" name="gender"
+                                            value="Laki-Laki" id="radioDefault1">
                                         <label class="form-check-label" for="radioDefault1">
                                             Laki-Laki
                                         </label>
@@ -345,7 +355,8 @@
                         </div>
 
                         <div class="mb-3 row">
-                            <label for="PendidikanTerakhir" class="form-label col-sm-2">Nama Pendidikan Terakhir</label>
+                            <label for="PendidikanTerakhir" class="form-label col-sm-2">Nama Pendidikan
+                                Terakhir</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" id="Pendidikan"
                                     placeholder="Masukkan Pendidikan Terakhir">
@@ -369,13 +380,12 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous">
-        </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
-        </script>
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.21.2/dist/sweetalert2.all.min.js"></script>
 

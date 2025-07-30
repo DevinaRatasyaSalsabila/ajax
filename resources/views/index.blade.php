@@ -27,39 +27,39 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="index.html">
+                        <a class="nav-link active text-light" aria-current="page" href="index">
                             <i class="bi bi-house-fill"></i>
                             Beranda
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="siswa_jquery.html">
+                        <a class="nav-link  text-light" href="siswa">
                             <i class="bi bi-people"></i>
                             Siswa
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="guru.html">
+                        <a class="nav-link  text-light" href="guru">
                             <i class="bi bi-file-person"></i>
                             Guru
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="mapel.html">
+                        <a class="nav-link  text-light" href="mapel">
                             <i class="bi bi-journal-text"></i>
                             Mata Pelajaran
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="jadwalPelajaran.html">
+                        <a class="nav-link  text-light" href="jadwal">
                             <i class="bi bi-calendar"></i>
                             Jadwal Pelajaran
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="kelas.html">
+                        <a class="nav-link  text-light" href="kelas">
                             <i class="bi bi-calendar"></i>
-                            Jadwal Pelajaran
+                            Kelas
                         </a>
                     </li>
                 </ul>

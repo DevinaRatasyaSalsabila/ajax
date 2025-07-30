@@ -5,63 +5,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Daftar Mapel</title>
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/sweetalert2@11.21.2/dist/sweetalert2.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.21.2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/2.3.1/css/dataTables.bootstrap5.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
-        crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-        integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD"
-        crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-success fixed-top">
         <div class="container">
             <a class="navbar-brand text-light" href="#">Sekolah</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="index.html">
+                        <a class="nav-link active text-light" aria-current="page" href="index">
                             <i class="bi bi-house-fill"></i>
                             Beranda
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="siswa_jquery.html">
+                        <a class="nav-link  text-light" href="siswa">
                             <i class="bi bi-people"></i>
                             Siswa
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="guru.html">
+                        <a class="nav-link  text-light" href="guru">
                             <i class="bi bi-file-person"></i>
                             Guru
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="mapel.html">
+                        <a class="nav-link  text-light" href="mapel">
                             <i class="bi bi-journal-text"></i>
                             Mata Pelajaran
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="jadwalPelajaran.html">
+                        <a class="nav-link  text-light" href="jadwal">
                             <i class="bi bi-calendar"></i>
                             Jadwal Pelajaran
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light" href="kelas">
+                            <i class="bi bi-calendar"></i>
+                            Kelas
                         </a>
                     </li>
                 </ul>
@@ -95,9 +93,8 @@
                                 <td class="text-center">Bahasa Indonesia</td>
                                 <td class="text-center">Normatif</td>
                                 <td class="text-center">
-                                    <button class="btn-warning btn-sm btn m-1"
-                                        data-bs-toggle="modal" data-bs-target="#edit_mapel"
-                                        data-bs-mapel="Bahasa Indonesia"
+                                    <button class="btn-warning btn-sm btn m-1" data-bs-toggle="modal"
+                                        data-bs-target="#edit_mapel" data-bs-mapel="Bahasa Indonesia"
                                         data-bs-kategori="Normatif">
                                         Edit
                                     </button>
@@ -112,9 +109,9 @@
                                 <td class="text-center">Matematika</td>
                                 <td class="text-center">Normatif</td>
                                 <td class="text-center">
-                                    <button class="btn-warning btn-sm btn m-1"
-                                        data-bs-toggle="modal" data-bs-target="#edit_mapel"
-                                        data-bs-mapel="Matematika" data-bs-kategori="Normatif">
+                                    <button class="btn-warning btn-sm btn m-1" data-bs-toggle="modal"
+                                        data-bs-target="#edit_mapel" data-bs-mapel="Matematika"
+                                        data-bs-kategori="Normatif">
                                         Edit
                                     </button>
                                     <button class="btn-danger btn-sm btn m-1"
@@ -129,9 +126,8 @@
                                 <td class="text-center">Pemrograman Dasar</td>
                                 <td class="text-center">Produktif</td>
                                 <td class="text-center">
-                                    <button class="btn-warning btn-sm btn m-1"
-                                        data-bs-toggle="modal" data-bs-target="#edit_mapel"
-                                        data-bs-mapel="Pemrograman Dasar"
+                                    <button class="btn-warning btn-sm btn m-1" data-bs-toggle="modal"
+                                        data-bs-target="#edit_mapel" data-bs-mapel="Pemrograman Dasar"
                                         data-bs-kategori="Produktif">
                                         Edit
                                     </button>
@@ -147,9 +143,8 @@
                                 <td class="text-center">Jaringan Komputer</td>
                                 <td class="text-center">Produktif</td>
                                 <td class="text-center">
-                                    <button class="btn-warning btn-sm btn m-1"
-                                        data-bs-toggle="modal" data-bs-target="#edit_mapel"
-                                        data-bs-mapel="Jaringan Komputer"
+                                    <button class="btn-warning btn-sm btn m-1" data-bs-toggle="modal"
+                                        data-bs-target="#edit_mapel" data-bs-mapel="Jaringan Komputer"
                                         data-bs-kategori="Produktif">
                                         Edit
                                     </button>
@@ -165,9 +160,8 @@
                                 <td class="text-center">Bahasa Inggris</td>
                                 <td class="text-center">Normatif</td>
                                 <td class="text-center">
-                                    <button class="btn-warning btn-sm btn m-1"
-                                        data-bs-toggle="modal" data-bs-target="#edit_mapel"
-                                        data-bs-mapel="Bahasa Inggris"
+                                    <button class="btn-warning btn-sm btn m-1" data-bs-toggle="modal"
+                                        data-bs-target="#edit_mapel" data-bs-mapel="Bahasa Inggris"
                                         data-bs-kategori="Normatif">
                                         Edit
                                     </button>
@@ -224,16 +218,15 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Mata Pelajaran</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form action="">
                         <div class="mb-3 row">
                             <label for="nama_mapel" class="form-label col-sm-2">Nama Mapel</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="nama-tambah"
-                                    onkeyup="tambah_mapel()" placeholder="Masukkan Nama Mapel">
+                                <input type="text" class="form-control" id="nama-tambah" onkeyup="tambah_mapel()"
+                                    placeholder="Masukkan Nama Mapel">
                             </div>
                         </div>
                         <div class="mb-3 row">
@@ -249,40 +242,35 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary"
-                        data-bs-dismiss="modal">Batal</button>
-                    <button type="button" class="btn btn-primary"
-                        onclick="btnTambah()">Simpan</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="btnTambah()">Simpan</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Modal Edit Siswa -->
-    <div class="modal fade" id="edit_mapel" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="edit_mapel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Data Mapel</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form action="">
                         <div class="mb-3 row">
                             <label for="nama_mapel" class="form-label col-sm-2">Nama Mapel</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control nama_Mapel"
-                                    id="mapel" name="mapel"
+                                <input type="text" class="form-control nama_Mapel" id="mapel" name="mapel"
                                     placeholder="Masukkan Nama Mapel" value="Bahasa Indonesia">
                             </div>
                         </div>
                         <div class="mb-3 row">
                             <label for="" class="form-label col-sm-2">Kategori</label>
                             <div class="col-sm-10">
-                                <select class="form-select selectKategori" id="selectKategori"
-                                    name="selectKategori " aria-label="Default select example">
+                                <select class="form-select selectKategori" id="selectKategori" name="selectKategori "
+                                    aria-label="Default select example">
                                     <option>Pilih Kategori</option>
                                     <option value="Normatif">Normatif</option>
                                     <option value="Produktif">Produktif</option>
@@ -301,13 +289,12 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-        crossorigin="anonymous"></script>
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.21.2/dist/sweetalert2.all.min.js"></script>
 

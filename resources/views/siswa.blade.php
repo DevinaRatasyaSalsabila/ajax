@@ -27,33 +27,39 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="index.html">
+                        <a class="nav-link active text-light" aria-current="page" href="index">
                             <i class="bi bi-house-fill"></i>
                             Beranda
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="siswa_jquery.html">
+                        <a class="nav-link  text-light" href="siswa">
                             <i class="bi bi-people"></i>
                             Siswa
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="guru.html">
+                        <a class="nav-link  text-light" href="guru">
                             <i class="bi bi-file-person"></i>
                             Guru
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="mapel.html">
+                        <a class="nav-link  text-light" href="mapel">
                             <i class="bi bi-journal-text"></i>
                             Mata Pelajaran
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="jadwalPelajaran.html">
+                        <a class="nav-link  text-light" href="jadwal">
                             <i class="bi bi-calendar"></i>
                             Jadwal Pelajaran
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light" href="kelas">
+                            <i class="bi bi-calendar"></i>
+                            Kelas
                         </a>
                     </li>
                 </ul>
@@ -202,7 +208,8 @@
                         </ul>
                     </div>
                     <div class="col-md-4 text-center">
-                        <img src="img/Task-bro.svg" alt="Ilustrasi Tugas" class="img-fluid" style="max-height: 210px;">
+                        <img src="img/Task-bro.svg" alt="Ilustrasi Tugas" class="img-fluid"
+                            style="max-height: 210px;">
                     </div>
                 </div>
                 <div class="text-center text-light my-3">2025 Devina Ratasya XI RPL 1</div>
@@ -213,7 +220,8 @@
 
 
     <!-- Modal Tambah Siswa-->
-    <div class="modal fade" id="tambah_siswa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="tambah_siswa" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -225,8 +233,8 @@
                         <div class="mb-3 row">
                             <label for="nama_siswa" class="form-label col-sm-2">Nama Siswa</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="nama-tambah" onkeyup="tambahSiswaJq()"
-                                    placeholder="Masukkan Nama Siswa">
+                                <input type="text" class="form-control" id="nama-tambah"
+                                    onkeyup="tambahSiswaJq()" placeholder="Masukkan Nama Siswa">
                             </div>
                         </div>
                         <div class="mb-3 row">
@@ -349,13 +357,12 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous">
-        </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
-        </script>
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.21.2/dist/sweetalert2.all.min.js"></script>
 
